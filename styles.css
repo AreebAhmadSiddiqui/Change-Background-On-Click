@@ -1,0 +1,25 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: yellow;
+    overflow: hidden;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btn{
+    width: 6rem;
+    height: 40px;
+    text-align: center;
+    color: black;
+    border: 2px solid rgba(18, 196, 219, 0.315);
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(5, 211, 238);
+    border-radius: 10px;
+}
